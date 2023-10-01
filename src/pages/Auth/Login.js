@@ -7,9 +7,9 @@ import googlelogo from '../../assets/GoogleLogo.png'
 const Login = () => {
   return (
     <>
-      <div className='bg-[#01091c] flex justify-center items-center h-full 2xl:h-screen w-full py-10 px-28 overflow-y-auto'>
+      <div className='md:bg-[#01091c] flex justify-center items-center h-screen md:h-full 2xl:h-screen w-full md:py-10 md:px-28 md:soverflow-y-auto'>
         <div className='flex w-full h-full'>
-          <div className='w-[60%] flex flex-col gap-y-10'>
+          <div className='w-[60%] hidden md:flex flex-col gap-y-10'>
             <div className='w-[20%] '>
               <img src={ttlogowhite} alt='logo' />
             </div>
@@ -19,8 +19,8 @@ const Login = () => {
               </div>
             </div>
           </div>
-          <div className='w-[40%] h-full flex justify-center items-center'>
-            <div className='bg-[#343A49] bg-opacity-50 w-full h-full flex justify-center items-center p-10 px-5'>
+          <div className='w-full md:w-[40%] h-full flex justify-center items-center'>
+            <div className=' md:bg-[#343A49] md:bg-opacity-50 bg-gradient-to-tr from-[#083232] via-[#061724] to-[#07181d] w-full h-full flex justify-center items-center p-10 px-5'>
               <div className='flex flex-col gap-y-8'>
                 <div className='text-center'>
                   <p className='text-[#CE90F3] font-bold text-3xl'>Welcome Back</p>
