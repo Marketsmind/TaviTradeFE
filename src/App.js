@@ -15,6 +15,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/forgot-password" element={<PasswordResetLink />} />
+        <Route path="/password-reset" element={<PasswordReset />} />
+        <Route path="/send-email" element={<EmailSent />} />
       </Routes>
     </>
   );
