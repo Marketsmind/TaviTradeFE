@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../App.css'
 import ttlogowhite from '../../assets/ttlogowhite.png'
 import authimg from '../../assets/authsideimg.png'
 import or from '../../assets/or.png'
@@ -20,7 +21,7 @@ const Login = () => {
             </div>
           </div>
           <div className='w-full md:w-[40%] h-full flex justify-center items-center'>
-            <div className=' md:bg-[#343A49] md:bg-opacity-50 bg-gradient-to-tr from-[#083232] via-[#061724] to-[#07181d] w-full h-full flex justify-center items-center p-10 px-5'>
+            <div className='authformbg bg-[#343A49] md:bg-opacity-25 w-full h-full flex justify-center items-center p-10 px-5'>
               <div className='flex flex-col gap-y-8'>
                 <div className='text-center'>
                   <p className='text-[#CE90F3] font-bold text-3xl'>Welcome Back</p>
@@ -35,8 +36,8 @@ const Login = () => {
                 <div className='flex justify-center items-center w-full'><img src={or} alt='--' /></div>
                 <div className='w-full justify-center'>
                   <div className='flex justify-center items-center'>
-                    <button className='bg-[#343A49] text-white px-2 hover:text-black hover:bg-[#2AF69F] h-[48px] rounded-l-lg'>Create my account</button>
-                    <button className='bg-[#343A49] text-white px-2 hover:text-black hover:bg-[#2AF69F] h-[48px] rounded-r-lg'>Login to my account</button>
+                    <button className='bg-[#343A49] text-white px-2 hover:text-black hover:bg-[#2AF69F] h-[48px] rounded-l-lg transition duration-300'>Create my account</button>
+                    <button className='bg-[#343A49] text-white px-2 hover:text-black hover:bg-[#2AF69F] h-[48px] rounded-r-lg transition duration-300'>Login to my account</button>
                   </div>
                 </div>
                 <div>
